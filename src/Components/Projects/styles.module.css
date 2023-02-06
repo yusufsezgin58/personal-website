@@ -1,0 +1,55 @@
+.rate {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 6rem;
+    background: none;
+}
+
+.rate div {
+    width: 60%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.text h4 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.list {
+    margin-top: 2rem;
+}
+
+.list ul {
+    border: 1px solid white;
+}
+
+.list ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    margin-top: 2rem;
+}
+
+#message {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+}

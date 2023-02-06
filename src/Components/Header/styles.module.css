@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3rem;
+    background: none;
+}
+
+.head h4 {
+    font-size: 2rem;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.head {
+    background: none;
+}
+
+.link {
+    background: none;
+
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+svg {
+    background: none;
+
+}
+
+.link:nth-child(2) {
+    margin-left: 3rem;
+}
+
+.link:nth-child(3) {
+    margin-left: 3rem;
+}
+
+#theme {
+    background: none;
+
+    margin-top: 1rem;
+}
+

@@ -1,0 +1,60 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 6rem;
+    background: none;
+}
+
+.skills h4 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 8px;
+    margin-right: 1.6rem;
+    margin-bottom: 1.6rem;
+    height: auto;
+    border: 2px solid #E7F6F2;
+    border-radius: 8px;
+}
+
+.icon span {
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+    background: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+
+.icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.skills svg {
+    fill:#000000;
+}
