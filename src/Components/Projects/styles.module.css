@@ -53,3 +53,13 @@
     margin-left: 20%;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 760px) {
+    .rate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+}

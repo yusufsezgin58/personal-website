@@ -58,3 +58,11 @@
 .skills svg {
     fill:#000000;
 }
+
+@media screen and (max-width: 760px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

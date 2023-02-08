@@ -67,3 +67,19 @@ svg {
     margin-top: 1rem;
 }
 
+
+
+@media screen and (max-width: 760px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .link:nth-child(3) {
+        margin-left: 0;
+    }
+}
