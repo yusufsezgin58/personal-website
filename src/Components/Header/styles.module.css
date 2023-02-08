@@ -28,12 +28,24 @@
 
 .link {
     background: none;
-
+    padding-inline: 0.4rem;
+    padding-block: 0.4rem;
     color: white;
     font-size: 1.1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.link:hover {
+    background-color: #DFEEEA;
+    color: black;
+    transition: 0.6s;
+    border-radius: 6px;
+}
+
+.link:hover Link {
+    color: black;
 }
 
 svg {
