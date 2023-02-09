@@ -4,7 +4,6 @@
     width: 60%;
     margin-left: 20%;
     margin-top: 6rem;
-    background: none;
 }
 
 .skills h4 {
@@ -52,6 +51,7 @@
 
 .icon img {
     width: 28px;
+    background-color: #454545;
     height: 28px;
 }
 
