@@ -4,6 +4,7 @@ import ThemeContext from '../../Context/Context'
 import Header from '../Header/Header'
 import styles from './styles.module.css'
 
+
 function Layout() {
 
   const {theme, setTheme} = useContext(ThemeContext)

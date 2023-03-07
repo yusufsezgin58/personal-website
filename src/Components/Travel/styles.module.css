@@ -1,0 +1,48 @@
+.travel {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4rem;
+    background: none;
+    flex-wrap: wrap;
+}
+
+.travel div {
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.travel div:hover {
+    transform: scale(1.1);
+}
+
+#image1 {
+    background: url("../../img/paris.JPG");
+    background-size: 310px 370px;
+    width: 310px;
+    height: 370px;
+}
+
+
+#image2 {
+    background: url("../../img/belcika2.JPG");
+    background-size: 320px 370px;
+    width: 320px;
+    height: 370px;
+}
+
+#image3 {
+    background: url("../../img/amsterdam.JPG");
+    background-size: 310px 370px;
+    width: 310px;
+    height: 370px;
+}
+
+#image4 {
+    background: url("../../img/belcika.JPG");
+    background-size: 320px 370px;
+    width: 320px;
+    height: 370px;
+}

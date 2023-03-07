@@ -28,14 +28,15 @@
 
 .link {
     background: none;
-    padding-inline: 0.4rem;
-    padding-block: 0.4rem;
+    padding-inline: 0.6rem;
+    padding-block: 0.5rem;
     color: white;
     font-size: 1.1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 
 .link:hover {
     background-color: #DFEEEA;
@@ -61,6 +62,10 @@ svg {
     margin-left: 3rem;
 }
 
+.link:nth-child(4) {
+    margin-left: 3rem;
+}
+
 #theme {
     background: none;
 
@@ -82,4 +87,9 @@ svg {
     .link:nth-child(3) {
         margin-left: 0;
     }
+}
+
+.spotify {
+    padding-block: 0.4rem;
+    margin-top: 1rem;
 }

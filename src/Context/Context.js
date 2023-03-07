@@ -1,8 +1,9 @@
-import { createContext, useState } from "react";
+import axios from "axios";
+import { createContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext();
 
-export const ThemeProvider = ({children}) => {
+export const ThemeProvider = ({ children }) => {
 
     const [theme, setTheme] = useState('light')
 

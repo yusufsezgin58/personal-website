@@ -45,7 +45,7 @@ function Projects() {
                             field="message"
                             errors={state.errors}
                         /> <br />
-                        <button type="submit" className="btn btn-light float-end" disabled={state.submitting}>
+                        <button type="submit" className="btn btn-light float-end px-3 py-2" disabled={state.submitting}>
                             Submit
                         </button>
                     </form>

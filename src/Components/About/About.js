@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from './styles.module.css'
 import image from '../../img/avatar3.jpeg'
 
 function About() {
+  
   return (
     <div className={styles.about}>
       <img src={image} />
@@ -34,8 +35,6 @@ function About() {
             </svg>
             <span>Github</span>
           </a>
-
-
         </div>
       </div>
     </div>

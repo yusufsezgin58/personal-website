@@ -4,6 +4,7 @@ import About from './Components/About/About';
 import Layout from './Components/Layout/Layout'
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
+import Travel from './Components/Travel/Travel';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<About />} />
           <Route path='/skills' element={<Skills />}/>
           <Route path='/rate' element={<Projects />} />
+          <Route path='/travel' element={<Travel />} />
         </Route>
       </Routes>
     </BrowserRouter>
