@@ -87,6 +87,9 @@ svg {
     .link:nth-child(3) {
         margin-left: 0;
     }
+    .link:nth-child(4) {
+        margin-left: 0;
+    }
 }
 
 .spotify {
