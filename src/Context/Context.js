@@ -1,4 +1,3 @@
-import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext();
