@@ -1,20 +1,20 @@
 .travel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60%;
     margin-left: 20%;
     margin-top: 4rem;
     background: none;
     flex-wrap: wrap;
+    margin-top: 16rem;
 }
 
-.travel div {
-    background-color: white;
+.photos div {
     border-radius: 5px;
     transition: 0.6s;
 }
 
-.travel div:hover {
+.photos div:hover {
     transform: scale(1.1);
 }
 
@@ -33,6 +33,12 @@
     height: 370px;
 }
 
+#h4 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
 #image3 {
     background: url("../../img/amsterdam.JPG");
     background-size: 310px 370px;
@@ -45,4 +51,13 @@
     background-size: 320px 370px;
     width: 320px;
     height: 370px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 4rem;
+    background: none;
+    flex-wrap: wrap;
 }
